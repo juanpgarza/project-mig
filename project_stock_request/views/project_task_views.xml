@@ -11,14 +11,14 @@
                 >
                     <field
                         name="stock_request_order_ids"
-                        context="{'default_project_id': project_id, 'default_project_task_id': active_id}"
+                        context="{'default_project_id': project_id, 'default_project_task_id': id}"
                     >
-                        <tree>
+                        <list>
                             <field name="name" />
                             <field name="expected_date" />
                             <field name="create_date" />
                             <field name="state" />
-                        </tree>
+                        </list>
                     </field>
                 </page>
             </notebook>
